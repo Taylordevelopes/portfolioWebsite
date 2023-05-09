@@ -1,0 +1,58 @@
+pre {
+	font-size:2.3vw;
+}
+
+.code {
+	width:80%;
+}
+.code-block {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+
+
+
+
+.keyword {
+  color: #ff7b00;
+}
+
+.string {
+  color: #feca57;
+}
+
+.console {
+  color: #4ec9b0;
+}
+
+.cursor {
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 0.5em;
+  animation: blink 1s step-end infinite;
+}
+
+
+
+.banner {
+  background-color: #1e1e1e;
+  padding: 24px;
+}
+
+
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
